@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script&family=Inter:wght@300&display=swap");
+
+.name {
+  font-family: "Borel", cursive;
+  /* font-family: "Dancing Script", cursive; */
+  /* font-family: "Inter", sans-serif; */
+}
+
+.drawer {
+  box-shadow: 600px -1px 400px 400px rgba(0, 0, 0, 0.342);
+  -webkit-box-shadow: 600px -1px 400px 400px rgba(0, 0, 0, 0.342);
+  -moz-box-shadow: 600px -1px 400px 400px rgba(0, 0, 0, 0.342);
+}
+
+@media (max-width: 450px) {
+  .burger  {
+    position: absolute;
+    left: -100000px;
+}
+}
+@media (max-width:540px) {
+  .search-bar {
+    position: absolute;
+    left: -100000px;
+  }
+}
