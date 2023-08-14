@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Left = () => {
+const Playlists = () => {
   return (
     <div>
-      Left
+      playlist
     </div>
   )
 }
 
-export default Left
+export default Playlists

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Category = () => {
   return (
-    <div className=' ms-3 flex flex-row h-fit gap-3'>
+    <div className=' ms-3 flex flex-wrap h-fit gap-3'>
       <button className=' bg-[#e9e9e9] px-3 py-1 rounded shadow hover:bg-[#d2d2d2] font-semibold uppercase text-sm'>all</button>
       <button className=' bg-[#e9e9e9] px-3 py-1 rounded shadow hover:bg-[#d2d2d2] font-semibold uppercase text-sm'>pop</button>
       <button className=' bg-[#e9e9e9] px-3 py-1 rounded shadow hover:bg-[#d2d2d2] font-semibold uppercase text-sm'>indie</button>

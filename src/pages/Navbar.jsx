@@ -4,6 +4,7 @@ import LeftNavbar from "../components/navbar-components/LeftNavbar";
 import BottomNavbar from "../components/navbar-components/BottomNavbar";
 import "../components/navbar-components/navbar.css";
 import Category from "../components/navbar-components/Category";
+import Home from "./Home";
 
 const Navbar = () => {
   return (
@@ -13,7 +14,12 @@ const Navbar = () => {
         <div className=" left-nav">
           <LeftNavbar />
         </div>
-        <Category />
+        <div className=" flex flex-col left-nav">
+          <Category />
+          <div>
+            <Home />
+          </div>
+        </div>
       </div>
       <div className=" bottom-nav w-full">
         <BottomNavbar />
