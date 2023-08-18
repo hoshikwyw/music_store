@@ -18,14 +18,14 @@ const Home = () => {
             <Chart />
           </div>
         </div>
-        <div>
+        <div className= " album rounded">
           <TopArtist />
         </div>
-        <div className=" flex flex-col md:flex-row gap-5 mt-3 h-[300px]">
-          <div className=" bg-slate-400 w-full md:w-[65%]">
+        <div className=" flex flex-col md:flex-row gap-5 mt-5">
+          <div className="  w-full md:w-[65%] album rounded">
             <New />
           </div>
-          <div className=" bg-red-200 w-full md:w-[35%]">
+          <div className=" w-full md:w-[35%] album rounded">
             <Playlists />
           </div>
         </div>

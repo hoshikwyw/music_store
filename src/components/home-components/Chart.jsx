@@ -1,20 +1,20 @@
 import React from "react";
 import { IoHeartCircleOutline } from "react-icons/io5";
-import { BsPlusCircle,BsFillHeartFill } from "react-icons/bs";
+import { BsPlusCircle, BsFillHeartFill } from "react-icons/bs";
 
 const Chart = () => {
   return (
-    <div className=" w-[92%] mx-auto my-2">
+    <div className=" w-[92%] mx-auto py-2">
       <div className=" flex justify-between">
         <h2 className=" text-lg font-semibold font-mono text-[#555555]">
           Top Charts
         </h2>
-        <button className=" bg-[#c5c4c4de] px-3 py-1 rounded text-xs font-semibold tracking-wider">
+        <button className=" border-2 border-[#c5c4c4de] hover:bg-[#c5c4c4de] px-3 py-1 rounded text-xs font-semibold tracking-wider">
           See More
         </button>
       </div>
       <div className=" mt-3 flex flex-col gap-3 ">
-        <div className=" flex items-center justify-between px-3 py-1 rounded hover:bg-[#b3b1b1]">
+        <div className=" flex items-center justify-between px-3 py-1 rounded hover:bg-[#b3b1b169]">
           <div className=" flex gap-2 items-center">
             <img
               src={
@@ -30,7 +30,7 @@ const Chart = () => {
           </div>
           <div className=" flex gap-3 items-center">
             <h2 className=" text-sm">2:04</h2>
-            <button className=" text-[#d64444]">
+            <button className=" text-gray-500 active:text-red-500 focus:text-red-500">
               <BsFillHeartFill />
             </button>
             <button>
@@ -38,7 +38,7 @@ const Chart = () => {
             </button>
           </div>
         </div>
-        <div className=" flex items-center justify-between px-3 py-1 rounded hover:bg-[#b3b1b1]">
+        <div className=" flex items-center justify-between px-3 py-1 rounded hover:bg-[#b3b1b169]">
           <div className=" flex gap-2 items-center">
             <img
               src={
@@ -54,7 +54,7 @@ const Chart = () => {
           </div>
           <div className=" flex gap-3 items-center">
             <h2 className=" text-sm">2:04</h2>
-            <button className=" text-[#d64444]">
+            <button className=" text-gray-500 active:text-red-500 focus:text-red-500">
               <BsFillHeartFill />
             </button>
             <button>
@@ -62,7 +62,7 @@ const Chart = () => {
             </button>
           </div>
         </div>
-        <div className=" flex items-center justify-between px-3 py-1 rounded hover:bg-[#b3b1b1]">
+        <div className=" flex items-center justify-between px-3 py-1 rounded hover:bg-[#b3b1b169]">
           <div className=" flex gap-2 items-center">
             <img
               src={
@@ -78,7 +78,7 @@ const Chart = () => {
           </div>
           <div className=" flex gap-3 items-center">
             <h2 className=" text-sm">2:04</h2>
-            <button className=" text-[#d64444]">
+            <button className=" text-gray-500 active:text-red-500 focus:text-red-500">
               <BsFillHeartFill />
             </button>
             <button>
@@ -86,7 +86,7 @@ const Chart = () => {
             </button>
           </div>
         </div>
-        <div className=" flex items-center justify-between px-3 py-1 rounded hover:bg-[#b3b1b1]">
+        <div className=" flex items-center justify-between px-3 py-1 rounded hover:bg-[#b3b1b169]">
           <div className=" flex gap-2 items-center">
             <img
               src={
@@ -102,7 +102,7 @@ const Chart = () => {
           </div>
           <div className=" flex gap-3 items-center">
             <h2 className=" text-sm">2:04</h2>
-            <button className=" text-[#d64444]">
+            <button className=" text-gray-500 active:text-red-500 focus:text-red-500">
               <BsFillHeartFill />
             </button>
             <button>
@@ -110,7 +110,7 @@ const Chart = () => {
             </button>
           </div>
         </div>
-        <div className=" flex items-center justify-between px-3 py-1 rounded hover:bg-[#b3b1b1]">
+        <div className=" flex items-center justify-between px-3 py-1 rounded hover:bg-[#b3b1b169]">
           <div className=" flex gap-2 items-center">
             <img
               src={
@@ -126,7 +126,7 @@ const Chart = () => {
           </div>
           <div className=" flex gap-3 items-center">
             <h2 className=" text-sm">2:04</h2>
-            <button className=" text-[#d64444]">
+            <button className=" text-gray-500 active:text-red-500 focus:text-red-500">
               <BsFillHeartFill />
             </button>
             <button>

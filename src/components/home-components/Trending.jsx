@@ -52,7 +52,7 @@ const Trending = () => {
                   </button>
                   <Tooltip title="like" arrow>
                     <IconButton>
-                      <IoHeartCircleOutline className=" text-3xl text-red-500 mb-0" />
+                      <IoHeartCircleOutline className=" text-3xl text-gray-500 active:text-red-500 focus:text-red-500 mb-0" />
                     </IconButton>
                   </Tooltip>
                 </div>
@@ -87,7 +87,7 @@ const Trending = () => {
                   </button>
                   <Tooltip title="like" arrow>
                     <IconButton>
-                      <IoHeartCircleOutline className=" text-3xl text-red-500 mb-0" />
+                      <IoHeartCircleOutline className=" text-3xl text-gray-500 active:text-red-500 focus:text-red-500 mb-0" />
                     </IconButton>
                   </Tooltip>
                 </div>
@@ -122,7 +122,7 @@ const Trending = () => {
                   </button>
                   <Tooltip title="like" arrow>
                     <IconButton>
-                      <IoHeartCircleOutline className=" text-3xl text-red-500 mb-0" />
+                      <IoHeartCircleOutline className=" text-3xl text-gray-500 active:text-red-500 focus:text-red-500 mb-0" />
                     </IconButton>
                   </Tooltip>
                 </div>
